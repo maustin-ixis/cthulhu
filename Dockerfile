@@ -75,7 +75,7 @@ RUN apk add nmap
 RUN apk add curl 
 RUN apk add wireshark 
 RUN apk add bzip2 
-RUN apk add dnsmaq 
+RUN apk add dnsmasq 
 RUN apk add tig 
 RUN apk add htop 
 RUN apk add links 
