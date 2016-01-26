@@ -13,11 +13,9 @@ RUN apk update && \
     ncurses \
     vim \
     gettext \
-    logrotate \
     tar \
     rsync \
     ansible \
-  rm -rf /var/cache/apk/* && \
-  mkdir -p /etc/logrotate.docker.d
+  rm -rf /var/cache/apk/*
 
 CMD ["bash"]
