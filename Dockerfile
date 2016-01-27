@@ -73,7 +73,6 @@ RUN apk add tmux-bash-completion
 RUN apk add wget 
 RUN apk add nmap 
 RUN apk add curl 
-RUN apk add wireshark 
 RUN apk add bzip2 
 RUN apk add dnsmasq 
 RUN apk add tig 
