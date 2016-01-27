@@ -63,7 +63,6 @@ RUN apk add ncdu
 RUN apk add git 
 RUN apk add git-bash-completion 
 RUN apk add dnstop 
-RUN apk add mosh-client 
 RUN apk add nload 
 RUN apk add iftop 
 RUN apk add lynx 
