@@ -52,7 +52,6 @@ RUN apk add bash
 RUN apk add bash-completion 
 RUN apk add ncurses 
 RUN apk add vim 
-RUN apk add gettext 
 RUN apk add tar 
 RUN apk add rsync 
 RUN apk add ansible 
@@ -67,8 +66,6 @@ RUN apk add nload
 RUN apk add iftop 
 RUN apk add lynx 
 RUN apk add mtr 
-RUN apk add tmux 
-RUN apk add tmux-bash-completion 
 RUN apk add wget 
 RUN apk add nmap 
 RUN apk add curl 
